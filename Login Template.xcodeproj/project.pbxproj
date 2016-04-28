@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5E9E6801CC7FE8200BE6EAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E9E67F1CC7FE8200BE6EAA /* AppDelegate.swift */; };
+		A5E9E6821CC7FE8200BE6EAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E9E6811CC7FE8200BE6EAA /* ViewController.swift */; };
+		A5E9E6851CC7FE8200BE6EAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E9E6831CC7FE8200BE6EAA /* Main.storyboard */; };
+		A5E9E6881CC7FE8200BE6EAA /* Login_Template.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5E9E6861CC7FE8200BE6EAA /* Login_Template.xcdatamodeld */; };
+		A5E9E68A1CC7FE8200BE6EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E9E6891CC7FE8200BE6EAA /* Assets.xcassets */; };
+		A5E9E68D1CC7FE8200BE6EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E9E68B1CC7FE8200BE6EAA /* LaunchScreen.storyboard */; };
+		A5E9E6981CC7FE8200BE6EAA /* Login_TemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E9E6971CC7FE8200BE6EAA /* Login_TemplateTests.swift */; };
+		A5E9E6A31CC7FE8200BE6EAA /* Login_TemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E9E6A21CC7FE8200BE6EAA /* Login_TemplateUITests.swift */; };
+		A5E9E6B81CC80E5000BE6EAA /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E9E6B41CC80E5000BE6EAA /* NotoSans-Bold.ttf */; };
+		A5E9E6B91CC80E5000BE6EAA /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E9E6B41CC80E5000BE6EAA /* NotoSans-Bold.ttf */; };
+		A5E9E6BA1CC80E5000BE6EAA /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E9E6B41CC80E5000BE6EAA /* NotoSans-Bold.ttf */; };
+		A5E9E6BB1CC80E5000BE6EAA /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E9E6B51CC80E5000BE6EAA /* NotoSans-BoldItalic.ttf */; };
+		A5E9E6BC1CC80E5000BE6EAA /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E9E6B51CC80E5000BE6EAA /* NotoSans-BoldItalic.ttf */; };
+		A5E9E6BD1CC80E5000BE6EAA /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E9E6B51CC80E5000BE6EAA /* NotoSans-BoldItalic.ttf */; };
+		A5E9E6BE1CC80E5000BE6EAA /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E9E6B61CC80E5000BE6EAA /* NotoSans-Italic.ttf */; };
+		A5E9E6BF1CC80E5000BE6EAA /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E9E6B61CC80E5000BE6EAA /* NotoSans-Italic.ttf */; };
+		A5E9E6C01CC80E5000BE6EAA /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E9E6B61CC80E5000BE6EAA /* NotoSans-Italic.ttf */; };
+		A5E9E6C11CC80E5000BE6EAA /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E9E6B71CC80E5000BE6EAA /* NotoSans-Regular.ttf */; };
+		A5E9E6C21CC80E5000BE6EAA /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E9E6B71CC80E5000BE6EAA /* NotoSans-Regular.ttf */; };
+		A5E9E6C31CC80E5000BE6EAA /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E9E6B71CC80E5000BE6EAA /* NotoSans-Regular.ttf */; };
+		A5E9E6C51CC958E100BE6EAA /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E9E6C41CC958E100BE6EAA /* MaterialView.swift */; };
+		A5E9E6C81CC9592E00BE6EAA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E9E6C71CC9592E00BE6EAA /* Constants.swift */; };
+		A5E9E6CA1CC95FB600BE6EAA /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E9E6C91CC95FB600BE6EAA /* MaterialButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5E9E6941CC7FE8200BE6EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5E9E6741CC7FE8200BE6EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5E9E67B1CC7FE8200BE6EAA;
+			remoteInfo = "Login Template";
+		};
+		A5E9E69F1CC7FE8200BE6EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5E9E6741CC7FE8200BE6EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5E9E67B1CC7FE8200BE6EAA;
+			remoteInfo = "Login Template";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5E9E67C1CC7FE8200BE6EAA /* Login Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E9E67F1CC7FE8200BE6EAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5E9E6811CC7FE8200BE6EAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5E9E6841CC7FE8200BE6EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5E9E6871CC7FE8200BE6EAA /* Login_Template.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Login_Template.xcdatamodel; sourceTree = "<group>"; };
+		A5E9E6891CC7FE8200BE6EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5E9E68C1CC7FE8200BE6EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5E9E68E1CC7FE8200BE6EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E9E6931CC7FE8200BE6EAA /* Login TemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login TemplateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E9E6971CC7FE8200BE6EAA /* Login_TemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_TemplateTests.swift; sourceTree = "<group>"; };
+		A5E9E6991CC7FE8200BE6EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E9E69E1CC7FE8200BE6EAA /* Login TemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login TemplateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E9E6A21CC7FE8200BE6EAA /* Login_TemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_TemplateUITests.swift; sourceTree = "<group>"; };
+		A5E9E6A41CC7FE8200BE6EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E9E6B41CC80E5000BE6EAA /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		A5E9E6B51CC80E5000BE6EAA /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A5E9E6B61CC80E5000BE6EAA /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		A5E9E6B71CC80E5000BE6EAA /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		A5E9E6C41CC958E100BE6EAA /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		A5E9E6C71CC9592E00BE6EAA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A5E9E6C91CC95FB600BE6EAA /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5E9E6791CC7FE8200BE6EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E9E6901CC7FE8200BE6EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E9E69B1CC7FE8200BE6EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5E9E6731CC7FE8200BE6EAA = {
+			isa = PBXGroup;
+			children = (
+				A5E9E67E1CC7FE8200BE6EAA /* Login Template */,
+				A5E9E6961CC7FE8200BE6EAA /* Login TemplateTests */,
+				A5E9E6A11CC7FE8200BE6EAA /* Login TemplateUITests */,
+				A5E9E67D1CC7FE8200BE6EAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5E9E67D1CC7FE8200BE6EAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5E9E67C1CC7FE8200BE6EAA /* Login Template.app */,
+				A5E9E6931CC7FE8200BE6EAA /* Login TemplateTests.xctest */,
+				A5E9E69E1CC7FE8200BE6EAA /* Login TemplateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5E9E67E1CC7FE8200BE6EAA /* Login Template */ = {
+			isa = PBXGroup;
+			children = (
+				A5E9E6C61CC9591800BE6EAA /* Utilities */,
+				A5E9E6B31CC80DEC00BE6EAA /* Resource */,
+				A5E9E6B21CC80DE100BE6EAA /* Model */,
+				A5E9E6B11CC80DD600BE6EAA /* View */,
+				A5E9E6B01CC80DCE00BE6EAA /* Controller */,
+				A5E9E67F1CC7FE8200BE6EAA /* AppDelegate.swift */,
+				A5E9E6811CC7FE8200BE6EAA /* ViewController.swift */,
+				A5E9E6831CC7FE8200BE6EAA /* Main.storyboard */,
+				A5E9E6891CC7FE8200BE6EAA /* Assets.xcassets */,
+				A5E9E68B1CC7FE8200BE6EAA /* LaunchScreen.storyboard */,
+				A5E9E68E1CC7FE8200BE6EAA /* Info.plist */,
+				A5E9E6861CC7FE8200BE6EAA /* Login_Template.xcdatamodeld */,
+			);
+			path = "Login Template";
+			sourceTree = "<group>";
+		};
+		A5E9E6961CC7FE8200BE6EAA /* Login TemplateTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5E9E6971CC7FE8200BE6EAA /* Login_TemplateTests.swift */,
+				A5E9E6991CC7FE8200BE6EAA /* Info.plist */,
+			);
+			path = "Login TemplateTests";
+			sourceTree = "<group>";
+		};
+		A5E9E6A11CC7FE8200BE6EAA /* Login TemplateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5E9E6A21CC7FE8200BE6EAA /* Login_TemplateUITests.swift */,
+				A5E9E6A41CC7FE8200BE6EAA /* Info.plist */,
+			);
+			path = "Login TemplateUITests";
+			sourceTree = "<group>";
+		};
+		A5E9E6B01CC80DCE00BE6EAA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A5E9E6B11CC80DD600BE6EAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5E9E6C41CC958E100BE6EAA /* MaterialView.swift */,
+				A5E9E6C91CC95FB600BE6EAA /* MaterialButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A5E9E6B21CC80DE100BE6EAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A5E9E6B31CC80DEC00BE6EAA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A5E9E6B41CC80E5000BE6EAA /* NotoSans-Bold.ttf */,
+				A5E9E6B51CC80E5000BE6EAA /* NotoSans-BoldItalic.ttf */,
+				A5E9E6B61CC80E5000BE6EAA /* NotoSans-Italic.ttf */,
+				A5E9E6B71CC80E5000BE6EAA /* NotoSans-Regular.ttf */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		A5E9E6C61CC9591800BE6EAA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A5E9E6C71CC9592E00BE6EAA /* Constants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5E9E67B1CC7FE8200BE6EAA /* Login Template */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5E9E6A71CC7FE8200BE6EAA /* Build configuration list for PBXNativeTarget "Login Template" */;
+			buildPhases = (
+				A5E9E6781CC7FE8200BE6EAA /* Sources */,
+				A5E9E6791CC7FE8200BE6EAA /* Frameworks */,
+				A5E9E67A1CC7FE8200BE6EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Login Template";
+			productName = "Login Template";
+			productReference = A5E9E67C1CC7FE8200BE6EAA /* Login Template.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5E9E6921CC7FE8200BE6EAA /* Login TemplateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5E9E6AA1CC7FE8200BE6EAA /* Build configuration list for PBXNativeTarget "Login TemplateTests" */;
+			buildPhases = (
+				A5E9E68F1CC7FE8200BE6EAA /* Sources */,
+				A5E9E6901CC7FE8200BE6EAA /* Frameworks */,
+				A5E9E6911CC7FE8200BE6EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5E9E6951CC7FE8200BE6EAA /* PBXTargetDependency */,
+			);
+			name = "Login TemplateTests";
+			productName = "Login TemplateTests";
+			productReference = A5E9E6931CC7FE8200BE6EAA /* Login TemplateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5E9E69D1CC7FE8200BE6EAA /* Login TemplateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5E9E6AD1CC7FE8200BE6EAA /* Build configuration list for PBXNativeTarget "Login TemplateUITests" */;
+			buildPhases = (
+				A5E9E69A1CC7FE8200BE6EAA /* Sources */,
+				A5E9E69B1CC7FE8200BE6EAA /* Frameworks */,
+				A5E9E69C1CC7FE8200BE6EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5E9E6A01CC7FE8200BE6EAA /* PBXTargetDependency */,
+			);
+			name = "Login TemplateUITests";
+			productName = "Login TemplateUITests";
+			productReference = A5E9E69E1CC7FE8200BE6EAA /* Login TemplateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5E9E6741CC7FE8200BE6EAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tben;
+				TargetAttributes = {
+					A5E9E67B1CC7FE8200BE6EAA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A5E9E6921CC7FE8200BE6EAA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A5E9E67B1CC7FE8200BE6EAA;
+					};
+					A5E9E69D1CC7FE8200BE6EAA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A5E9E67B1CC7FE8200BE6EAA;
+					};
+				};
+			};
+			buildConfigurationList = A5E9E6771CC7FE8200BE6EAA /* Build configuration list for PBXProject "Login Template" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5E9E6731CC7FE8200BE6EAA;
+			productRefGroup = A5E9E67D1CC7FE8200BE6EAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5E9E67B1CC7FE8200BE6EAA /* Login Template */,
+				A5E9E6921CC7FE8200BE6EAA /* Login TemplateTests */,
+				A5E9E69D1CC7FE8200BE6EAA /* Login TemplateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5E9E67A1CC7FE8200BE6EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E9E6B81CC80E5000BE6EAA /* NotoSans-Bold.ttf in Resources */,
+				A5E9E68D1CC7FE8200BE6EAA /* LaunchScreen.storyboard in Resources */,
+				A5E9E6BB1CC80E5000BE6EAA /* NotoSans-BoldItalic.ttf in Resources */,
+				A5E9E6BE1CC80E5000BE6EAA /* NotoSans-Italic.ttf in Resources */,
+				A5E9E68A1CC7FE8200BE6EAA /* Assets.xcassets in Resources */,
+				A5E9E6851CC7FE8200BE6EAA /* Main.storyboard in Resources */,
+				A5E9E6C11CC80E5000BE6EAA /* NotoSans-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E9E6911CC7FE8200BE6EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E9E6C21CC80E5000BE6EAA /* NotoSans-Regular.ttf in Resources */,
+				A5E9E6BF1CC80E5000BE6EAA /* NotoSans-Italic.ttf in Resources */,
+				A5E9E6BC1CC80E5000BE6EAA /* NotoSans-BoldItalic.ttf in Resources */,
+				A5E9E6B91CC80E5000BE6EAA /* NotoSans-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E9E69C1CC7FE8200BE6EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E9E6C31CC80E5000BE6EAA /* NotoSans-Regular.ttf in Resources */,
+				A5E9E6C01CC80E5000BE6EAA /* NotoSans-Italic.ttf in Resources */,
+				A5E9E6BD1CC80E5000BE6EAA /* NotoSans-BoldItalic.ttf in Resources */,
+				A5E9E6BA1CC80E5000BE6EAA /* NotoSans-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5E9E6781CC7FE8200BE6EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E9E6C81CC9592E00BE6EAA /* Constants.swift in Sources */,
+				A5E9E6881CC7FE8200BE6EAA /* Login_Template.xcdatamodeld in Sources */,
+				A5E9E6CA1CC95FB600BE6EAA /* MaterialButton.swift in Sources */,
+				A5E9E6821CC7FE8200BE6EAA /* ViewController.swift in Sources */,
+				A5E9E6801CC7FE8200BE6EAA /* AppDelegate.swift in Sources */,
+				A5E9E6C51CC958E100BE6EAA /* MaterialView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E9E68F1CC7FE8200BE6EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E9E6981CC7FE8200BE6EAA /* Login_TemplateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E9E69A1CC7FE8200BE6EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E9E6A31CC7FE8200BE6EAA /* Login_TemplateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5E9E6951CC7FE8200BE6EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5E9E67B1CC7FE8200BE6EAA /* Login Template */;
+			targetProxy = A5E9E6941CC7FE8200BE6EAA /* PBXContainerItemProxy */;
+		};
+		A5E9E6A01CC7FE8200BE6EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5E9E67B1CC7FE8200BE6EAA /* Login Template */;
+			targetProxy = A5E9E69F1CC7FE8200BE6EAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5E9E6831CC7FE8200BE6EAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5E9E6841CC7FE8200BE6EAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5E9E68B1CC7FE8200BE6EAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5E9E68C1CC7FE8200BE6EAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5E9E6A51CC7FE8200BE6EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5E9E6A61CC7FE8200BE6EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5E9E6A81CC7FE8200BE6EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Login Template/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.tben.Login-Template";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5E9E6A91CC7FE8200BE6EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Login Template/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.tben.Login-Template";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5E9E6AB1CC7FE8200BE6EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Login TemplateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.tben.Login-TemplateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login Template.app/Login Template";
+			};
+			name = Debug;
+		};
+		A5E9E6AC1CC7FE8200BE6EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Login TemplateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.tben.Login-TemplateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login Template.app/Login Template";
+			};
+			name = Release;
+		};
+		A5E9E6AE1CC7FE8200BE6EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Login TemplateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.tben.Login-TemplateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Login Template";
+			};
+			name = Debug;
+		};
+		A5E9E6AF1CC7FE8200BE6EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Login TemplateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.tben.Login-TemplateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Login Template";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5E9E6771CC7FE8200BE6EAA /* Build configuration list for PBXProject "Login Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E9E6A51CC7FE8200BE6EAA /* Debug */,
+				A5E9E6A61CC7FE8200BE6EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5E9E6A71CC7FE8200BE6EAA /* Build configuration list for PBXNativeTarget "Login Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E9E6A81CC7FE8200BE6EAA /* Debug */,
+				A5E9E6A91CC7FE8200BE6EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5E9E6AA1CC7FE8200BE6EAA /* Build configuration list for PBXNativeTarget "Login TemplateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E9E6AB1CC7FE8200BE6EAA /* Debug */,
+				A5E9E6AC1CC7FE8200BE6EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5E9E6AD1CC7FE8200BE6EAA /* Build configuration list for PBXNativeTarget "Login TemplateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E9E6AE1CC7FE8200BE6EAA /* Debug */,
+				A5E9E6AF1CC7FE8200BE6EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5E9E6861CC7FE8200BE6EAA /* Login_Template.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5E9E6871CC7FE8200BE6EAA /* Login_Template.xcdatamodel */,
+			);
+			currentVersion = A5E9E6871CC7FE8200BE6EAA /* Login_Template.xcdatamodel */;
+			path = Login_Template.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5E9E6741CC7FE8200BE6EAA /* Project object */;
+}
